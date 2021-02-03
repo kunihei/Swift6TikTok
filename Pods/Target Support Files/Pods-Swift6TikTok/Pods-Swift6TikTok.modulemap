@@ -1,0 +1,6 @@
+framework module Pods_Swift6TikTok {
+  umbrella header "Pods-Swift6TikTok-umbrella.h"
+
+  export *
+  module * { export * }
+}

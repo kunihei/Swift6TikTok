@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		948F38EEB574AE1DE1CF0E0B /* Pods_Swift6TikTok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87397B57C659B07B333CD50D /* Pods_Swift6TikTok.framework */; };
+		BA0D444425BE3D7D001775E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0D444325BE3D7D001775E2 /* ViewController.swift */; };
+		BA4439CC25BE4C0200731E36 /* SetUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4439CB25BE4C0200731E36 /* SetUpViewController.swift */; };
+		BA4439D025BE518E00731E36 /* SwiftyRecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4439CF25BE518E00731E36 /* SwiftyRecordButton.swift */; };
+		BA4439D325BE51A400731E36 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4439D225BE51A400731E36 /* LoadingView.swift */; };
+		BA4439D825BE51D700731E36 /* AuthCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4439D725BE51D700731E36 /* AuthCheck.swift */; };
+		BA4439DB25BE51EE00731E36 /* VAVideoCompressor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4439DA25BE51EE00731E36 /* VAVideoCompressor.swift */; };
+		BA4439DE25BE5BB700731E36 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4439DD25BE5BB700731E36 /* EditViewController.swift */; };
+		BA4439E125BFA1E800731E36 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4439E025BFA1E800731E36 /* SelectViewController.swift */; };
+		BA4439E425BFACAE00731E36 /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4439E325BFACAE00731E36 /* MusicModel.swift */; };
+		BA81117625BE3BD100F4C55F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81117525BE3BD100F4C55F /* AppDelegate.swift */; };
+		BA81117825BE3BD100F4C55F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81117725BE3BD100F4C55F /* SceneDelegate.swift */; };
+		BA81117D25BE3BD100F4C55F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA81117B25BE3BD100F4C55F /* Main.storyboard */; };
+		BA81117F25BE3BD200F4C55F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA81117E25BE3BD200F4C55F /* Assets.xcassets */; };
+		BA81118225BE3BD200F4C55F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA81118025BE3BD200F4C55F /* LaunchScreen.storyboard */; };
+		BAE9A17A25C23272007F9712 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE9A17925C23272007F9712 /* ShareViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BA0CD971D275CDC03414211 /* Pods-Swift6TikTok.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift6TikTok.debug.xcconfig"; path = "Target Support Files/Pods-Swift6TikTok/Pods-Swift6TikTok.debug.xcconfig"; sourceTree = "<group>"; };
+		87397B57C659B07B333CD50D /* Pods_Swift6TikTok.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift6TikTok.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A297F5A7A3AD7D8E0C2C7C /* Pods-Swift6TikTok.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift6TikTok.release.xcconfig"; path = "Target Support Files/Pods-Swift6TikTok/Pods-Swift6TikTok.release.xcconfig"; sourceTree = "<group>"; };
+		BA0D444325BE3D7D001775E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA4439CB25BE4C0200731E36 /* SetUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpViewController.swift; sourceTree = "<group>"; };
+		BA4439CF25BE518E00731E36 /* SwiftyRecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyRecordButton.swift; sourceTree = "<group>"; };
+		BA4439D225BE51A400731E36 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		BA4439D725BE51D700731E36 /* AuthCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthCheck.swift; sourceTree = "<group>"; };
+		BA4439DA25BE51EE00731E36 /* VAVideoCompressor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VAVideoCompressor.swift; sourceTree = "<group>"; };
+		BA4439DD25BE5BB700731E36 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		BA4439E025BFA1E800731E36 /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		BA4439E325BFACAE00731E36 /* MusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
+		BA81117225BE3BD100F4C55F /* Swift6TikTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift6TikTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA81117525BE3BD100F4C55F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA81117725BE3BD100F4C55F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA81117C25BE3BD100F4C55F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA81117E25BE3BD200F4C55F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA81118125BE3BD200F4C55F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA81118325BE3BD200F4C55F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE9A17925C23272007F9712 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA81116F25BE3BD100F4C55F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948F38EEB574AE1DE1CF0E0B /* Pods_Swift6TikTok.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82C0091880AC9A93770DEEE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87397B57C659B07B333CD50D /* Pods_Swift6TikTok.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E2679BEF1C8BBA34B94F940 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BA0CD971D275CDC03414211 /* Pods-Swift6TikTok.debug.xcconfig */,
+				97A297F5A7A3AD7D8E0C2C7C /* Pods-Swift6TikTok.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA0D444225BE3D62001775E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA0D444325BE3D7D001775E2 /* ViewController.swift */,
+				BA4439CB25BE4C0200731E36 /* SetUpViewController.swift */,
+				BA4439DD25BE5BB700731E36 /* EditViewController.swift */,
+				BA4439E025BFA1E800731E36 /* SelectViewController.swift */,
+				BAE9A17925C23272007F9712 /* ShareViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BA4439CE25BE513500731E36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA4439CF25BE518E00731E36 /* SwiftyRecordButton.swift */,
+				BA4439D225BE51A400731E36 /* LoadingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA4439D525BE51B400731E36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA4439D725BE51D700731E36 /* AuthCheck.swift */,
+				BA4439E325BFACAE00731E36 /* MusicModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA4439D625BE51BF00731E36 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				BA4439DA25BE51EE00731E36 /* VAVideoCompressor.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		BA81116925BE3BD100F4C55F = {
+			isa = PBXGroup;
+			children = (
+				BA81117425BE3BD100F4C55F /* Swift6TikTok */,
+				BA81117325BE3BD100F4C55F /* Products */,
+				9E2679BEF1C8BBA34B94F940 /* Pods */,
+				82C0091880AC9A93770DEEE6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA81117325BE3BD100F4C55F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA81117225BE3BD100F4C55F /* Swift6TikTok.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA81117425BE3BD100F4C55F /* Swift6TikTok */ = {
+			isa = PBXGroup;
+			children = (
+				BA81117525BE3BD100F4C55F /* AppDelegate.swift */,
+				BA81117725BE3BD100F4C55F /* SceneDelegate.swift */,
+				BA4439D625BE51BF00731E36 /* Util */,
+				BA4439D525BE51B400731E36 /* Model */,
+				BA4439CE25BE513500731E36 /* View */,
+				BA0D444225BE3D62001775E2 /* Controller */,
+				BA81117B25BE3BD100F4C55F /* Main.storyboard */,
+				BA81117E25BE3BD200F4C55F /* Assets.xcassets */,
+				BA81118025BE3BD200F4C55F /* LaunchScreen.storyboard */,
+				BA81118325BE3BD200F4C55F /* Info.plist */,
+			);
+			path = Swift6TikTok;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA81117125BE3BD100F4C55F /* Swift6TikTok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA81118625BE3BD200F4C55F /* Build configuration list for PBXNativeTarget "Swift6TikTok" */;
+			buildPhases = (
+				8E42E1E15F4F88639F39ECEC /* [CP] Check Pods Manifest.lock */,
+				BA81116E25BE3BD100F4C55F /* Sources */,
+				BA81116F25BE3BD100F4C55F /* Frameworks */,
+				BA81117025BE3BD100F4C55F /* Resources */,
+				977C5397A5F77704E0139E82 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swift6TikTok;
+			productName = Swift6TikTok;
+			productReference = BA81117225BE3BD100F4C55F /* Swift6TikTok.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA81116A25BE3BD100F4C55F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					BA81117125BE3BD100F4C55F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = BA81116D25BE3BD100F4C55F /* Build configuration list for PBXProject "Swift6TikTok" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA81116925BE3BD100F4C55F;
+			productRefGroup = BA81117325BE3BD100F4C55F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA81117125BE3BD100F4C55F /* Swift6TikTok */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA81117025BE3BD100F4C55F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA81118225BE3BD200F4C55F /* LaunchScreen.storyboard in Resources */,
+				BA81117F25BE3BD200F4C55F /* Assets.xcassets in Resources */,
+				BA81117D25BE3BD100F4C55F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E42E1E15F4F88639F39ECEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift6TikTok-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		977C5397A5F77704E0139E82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift6TikTok/Pods-Swift6TikTok-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift6TikTok/Pods-Swift6TikTok-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift6TikTok/Pods-Swift6TikTok-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA81116E25BE3BD100F4C55F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4439E125BFA1E800731E36 /* SelectViewController.swift in Sources */,
+				BA4439D025BE518E00731E36 /* SwiftyRecordButton.swift in Sources */,
+				BA4439CC25BE4C0200731E36 /* SetUpViewController.swift in Sources */,
+				BA4439E425BFACAE00731E36 /* MusicModel.swift in Sources */,
+				BA0D444425BE3D7D001775E2 /* ViewController.swift in Sources */,
+				BA4439D825BE51D700731E36 /* AuthCheck.swift in Sources */,
+				BAE9A17A25C23272007F9712 /* ShareViewController.swift in Sources */,
+				BA81117625BE3BD100F4C55F /* AppDelegate.swift in Sources */,
+				BA4439DB25BE51EE00731E36 /* VAVideoCompressor.swift in Sources */,
+				BA81117825BE3BD100F4C55F /* SceneDelegate.swift in Sources */,
+				BA4439D325BE51A400731E36 /* LoadingView.swift in Sources */,
+				BA4439DE25BE5BB700731E36 /* EditViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA81117B25BE3BD100F4C55F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA81117C25BE3BD100F4C55F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA81118025BE3BD200F4C55F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA81118125BE3BD200F4C55F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA81118425BE3BD200F4C55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA81118525BE3BD200F4C55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA81118725BE3BD200F4C55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BA0CD971D275CDC03414211 /* Pods-Swift6TikTok.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ARG4D8LX2;
+				INFOPLIST_FILE = Swift6TikTok/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shouhei.Swift6TikTok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BA81118825BE3BD200F4C55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A297F5A7A3AD7D8E0C2C7C /* Pods-Swift6TikTok.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ARG4D8LX2;
+				INFOPLIST_FILE = Swift6TikTok/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shouhei.Swift6TikTok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA81116D25BE3BD100F4C55F /* Build configuration list for PBXProject "Swift6TikTok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA81118425BE3BD200F4C55F /* Debug */,
+				BA81118525BE3BD200F4C55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA81118625BE3BD200F4C55F /* Build configuration list for PBXNativeTarget "Swift6TikTok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA81118725BE3BD200F4C55F /* Debug */,
+				BA81118825BE3BD200F4C55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA81116A25BE3BD100F4C55F /* Project object */;
+}

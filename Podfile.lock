@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (5.4.1)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - SDWebImage (5.10.2):
+    - SDWebImage/Core (= 5.10.2)
+  - SDWebImage/Core (5.10.2)
+  - SwiftVideoGenerator (1.4.0)
+  - SwiftyCam (4.0.0)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - NVActivityIndicatorView
+  - SDWebImage (~> 5.0)
+  - SwiftVideoGenerator
+  - SwiftyCam
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - NVActivityIndicatorView
+    - SDWebImage
+    - SwiftVideoGenerator
+    - SwiftyCam
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
+  SwiftVideoGenerator: 804637c18f68a4f205d806e305ebceb4adcf3d25
+  SwiftyCam: 6e57914771d972fbe508e759dc9d0150a44a93fd
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: 1745988d70784e47e0320c710eb42a224232dd58
+
+COCOAPODS: 1.10.0
